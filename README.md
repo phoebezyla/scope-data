@@ -22,7 +22,7 @@ Functions for other .py scripts to use
 #### &emsp;&emsp;`gaussian(x,amp,mean,var`
 &emsp;&emsp;A gaussian distribution function
 
-#### &emsp;`poisson(k,mean)`
+#### &emsp;&emsp;`poisson(k,mean)`
 &emsp;&emsp;A poisson distribution function
 
 #### &emsp;&emsp;`tail(x,decay)`
