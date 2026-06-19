@@ -9,7 +9,7 @@ Functions for other .py scripts to use
 &emsp;Takes .mat file f and builds a dataframe with time and voltage information. Time interval is set to 2 ns. Voltage in is mV, time is in s. 
 &emsp;Returns pd.datafram({'Time':time, 'Channel B': voltage}), tinterval
 
-&emsp; #### `comb_df(dflist,tint)`
+#### &emsp;`comb_df(dflist,tint)`
 Builds one dataframe from list of dataframes. 
 
 > #### `count_cross(arr, threshold)`
