@@ -9,27 +9,27 @@ Functions for other .py scripts to use
 &emsp;Takes .mat file f and builds a dataframe with time and voltage information. Time interval is set to 2 ns. Voltage in is mV, time is in s. 
 &emsp;Returns pd.datafram({'Time':time, 'Channel B': voltage}), tinterval
 
-#### &emsp;`comb_df(dflist,tint)`
-Builds one dataframe from list of dataframes. 
+#### &emsp;&emsp;`comb_df(dflist,tint)`
+&emsp;&emsp;Builds one dataframe from list of dataframes. 
 
-> #### `count_cross(arr, threshold)`
-> Counts the number of times array arr has a rising edge that crosses threshold, and the number of times arr has a falling edge that crosses -threshold. 
-> Returns upward_cross, downward_cross
+#### &emsp;&emsp;`count_cross(arr, threshold)`
+&emsp;&emsp;Counts the number of times array arr has a rising edge that crosses threshold, and the number of times arr has a falling edge that crosses -threshold. 
+&emsp;&emsp;Returns upward_cross, downward_cross
 
-> #### `gaussian(x,amp,mean,var`
-> A gaussian distribution function
+#### &emsp;&emsp;`gaussian(x,amp,mean,var`
+&emsp;&emsp;A gaussian distribution function
 
-> #### `poisson(k,mean)`
-> A poisson distribution function
+#### &emsp;`poisson(k,mean)`
+&emsp;&emsp;A poisson distribution function
 
-> #### `tail(x,decay)`
-> An exponential decay function. For x-> 0 at infinity, decay should be positive. 
+#### &emsp;&emsp;`tail(x,decay)`
+&emsp;&emsp;An exponential decay function. For x-> 0 at infinity, decay should be positive. 
 
-> #### `signal(x,amp0,amp1,amp2,mean0,mean1,mean2,var0,var1,var2,decay)`
-> The sum of three gaussian functions and one exponential decay function. 
+#### &emsp;&emsp;`signal(x,amp0,amp1,amp2,mean0,mean1,mean2,var0,var1,var2,decay)`
+&emsp;&emsp;The sum of three gaussian functions and one exponential decay function. 
 
-> #### `signal2(x,amp0,mean0,var0,amp1,mean1,var1)`
-> The sum of two gaussian functions. 
+#### &emsp;&emsp;`signal2(x,amp0,mean0,var0,amp1,mean1,var1)`
+&emsp;&emsp;The sum of two gaussian functions. 
 
 
 ### `charge-ana.py`
