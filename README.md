@@ -31,11 +31,16 @@ The sum of two gaussian functions.
 
 # `charge-ana.py`
 Input --outdir = directory with .mat files. 
+
 Input --prefix = name you want files saved under and in title of plots
+
 Input --file   = name (including .txt) of file you want statistic results saved to
+
 Combines information from each file in --outdir inbto one dataframe, and builds a histogram of the voltage information. Fits signal2 to the histogram, and makes two plots: the histograsm with the full fit overlaid, and the histogram with the decomposed fir overlaid. 
 
 # `combine_ana.py`
 Input = directory with .mat files. 
+
 Combines information from each file into one timestream of data, and plots voltage vs time, spectrogram (normal and log-y),a loglog FFT, and a histogram of the voltage. 
+
 Also determines RMS and variance of the voltage, and the number of times n sigma (for n = 1,2,3,4,5) is crossed. Can optionally save RMS, variance, thresholds, and threshold crosses to a specified .txt files. 
