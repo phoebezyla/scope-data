@@ -14,7 +14,9 @@ Functions for other .py scripts to use
 
 #### &emsp;&emsp;`count_cross(arr, threshold)`
 &emsp;&emsp;Counts the number of times array arr has a rising edge that crosses threshold,
+
 &emsp;&emsp;and the number of times arr has a falling edge that crosses -threshold. 
+
 &emsp;&emsp;Returns upward_cross, downward_cross
 
 #### &emsp;&emsp;`gaussian(x,amp,mean,var`
