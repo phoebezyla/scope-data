@@ -1,4 +1,4 @@
-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import math
+import math
 import numpy as np
 import pandas as pd
 from df_functions import *
@@ -22,6 +22,10 @@ df_comb = {}   # big timestream dataframe
 
 files = glob.glob(f"{args.outdir}*.mat")
 print(f"There are {len(files)} files to load")
+
+outdir = args.outdir
+os.makedirs(f"{outdir}/plots", exist_ok=True)
+
 
 for f in files:
     name = os.path.basename(f).replace(f".mat", "") 

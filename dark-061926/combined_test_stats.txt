@@ -1,0 +1,12 @@
+Filename,RMS[mV],1sig[mV]
+dark_64,0.3067105129653226,0.26253993107132734
+Threshold, upward crosses, negative threshold, downward crosses
+0.5693 8031 -0.5693 341
+Threshold, upward crosses, negative threshold, downward crosses
+0.8318 903 -0.8318 75
+Threshold, upward crosses, negative threshold, downward crosses
+1.0943 93 -1.0943 39
+Threshold, upward crosses, negative threshold, downward crosses
+1.3569 75 -1.3569 30
+Threshold, upward crosses, negative threshold, downward crosses
+1.6194 44 -1.6194 28
